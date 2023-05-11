@@ -1,8 +1,14 @@
 pipeline {
 
 //     agent any
-    agent {
-        dockerfile true
+//     agent {
+//         dockerfile true
+//     }
+     agent {
+        docker {
+            image '1a9da80469d2'
+            label 'adityadockerimg'
+        }
     }
 
     stages {
