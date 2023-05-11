@@ -40,4 +40,7 @@
 		</Run-Test-Case>
 
 	</target>
+	<target name="compile">
+	    <echo message="Hello World!"/>
+	</target>
 </project>
